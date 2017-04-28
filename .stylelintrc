@@ -2,20 +2,5 @@
   "plugins": [
     "stylelint-scss"
   ],
-  "extends": "stylelint-config-standard",
-  "parserOptions": {
-    "ecmaVersion": 5
-  },
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "rules": {
-    "dot-notation": 2,
-    "no-unused-vars": 1,
-    "no-empty": 2,
-    "max-len": [2, 100],
-    "max-params": [2,3]
-  }
-
+  "extends": "stylelint-config-standard"
 }
