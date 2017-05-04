@@ -24,6 +24,8 @@
     "rimraf": "2.5.2",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
-    "stylelint-scss": "^1.4.4"
+    "stylelint-scss": "^1.4.4",
+    "webpack": "^2.5.0",
+    "webpack-stream": "^3.2.0"
   }
 }
