@@ -1,7 +1,7 @@
 doctype html
 html
   include common/_head
-  body
+  body(class="ThisIsAMap")
     <!--[if lt IE 7]>
     <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите его</a></p>
     <![endif]-->
@@ -9,3 +9,38 @@ html
     .greating
       .greating_text Hello! I'm your training builder.
       .greating_picture
+    
+    .slider
+      .slider__left
+          ul.works__list
+            li.works__item.work-sample.active
+              .work-sample__title Сайт школы онлайн образования
+            li.works__item.work-sample
+              .work-sample__title Студия   
+                  
+      .slider__right                    
+        .slider__active
+          img(src='assets/img/2.png').slider__active-img
+          
+        .slider__btns
+          a.slider__btn.btn-up(href='#')
+            ul.slider__list.slider__list-up
+              li.slider__item.active
+                img.slider__item-pic(src='assets/img/1.png')
+              li.slider__item
+                img.slider__item-pic(src='assets/img/2.png')  
+              li.slider__item
+                img.slider__item-pic(src='assets/img/3.png')
+              li.slider__item
+                img.slider__item-pic(src='assets/img/4.png')        
+                  
+          a.slider__btn.btn-down(href='#')
+            ul.slider__list.slider__list-down
+              li.slider__item
+                img.slider__item-pic(src='assets/img/1.png')
+              li.slider__item
+                img.slider__item-pic(src='assets/img/2.png')  
+              li.slider__item.active
+                img.slider__item-pic(src='assets/img/3.png')
+              li.slider__item
+                img.slider__item-pic(src='assets/img/4.png')  

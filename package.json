@@ -27,5 +27,8 @@
     "stylelint-scss": "^1.4.4",
     "webpack": "^2.5.0",
     "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
