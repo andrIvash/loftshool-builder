@@ -6,7 +6,3 @@ module();
 
 
 slider.init();
-
-if ($('body').hasClass('google')) {
-  initMap();  
-}
